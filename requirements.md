@@ -1,8 +1,9 @@
-## Line Group Betting Bot
+# Line Group Betting Bot
 
-# summarise: Randomized generated 3 dices range in [1-6], [1-6], [1-6] according to the odds to determine whether the user wins the lottery.
 
-# Betting rules: Before the lottery is drawn, users place bets through group commands. A user can bet in multiple ways at once
+## summarise: Randomized generated 3 dices range in [1-6], [1-6], [1-6] according to the odds to determine whether the user wins the lottery.
+
+## Betting rules: Before the lottery is drawn, users place bets through group commands. A user can bet in multiple ways at once
 
 
 - Bet big or small:
@@ -53,9 +54,9 @@ If the user enters '1/2 100' in the group, it means that the user infers that 1 
 Payoff: 6X
 
 
-Robot function:
+# Robot function:
 
-A robot can be in multiple groups
+## A robot can be in multiple groups
 
 - Generate an ID for each customer entering the group.
 Customers enter the group and generate a user ID. If the user leaves the group and then comes back in, the ID number is still used as the customer's ID.
@@ -73,29 +74,31 @@ Customers enter the group and generate a user ID. If the user leaves the group a
 - The user enters a command to query the current round of gambling and the winning situation
  
                                    Line Robot Command
-X: Cancel the bet
-C: Check balance
-A: Check the rules of the game
-B: Stop betting and count the betting amount
-S: Enter the lottery result, the robot will display the picture (eg S123)
-Y: bank account number
-Admin Command: $ID+Amount
-N: Display past lottery records
-Play and Odds
-betting method + betting amount
-1/100
-1=100
-large/100
-large=100
-Small/100
-small=100
-single/100
-single=100
-double/100
-double=100
-12/100
-23=100
-rule
+- X: Cancel the bet
+- C: Check balance
+- A: Check the rules of the game
+- B: Stop betting and count the betting amount
+- S: Enter the lottery result, the robot will display the picture (eg S123)
+- Y: bank account number
+- Admin Command: $ID+Amount
+- N: Display past lottery records
+- Play and Odds
+- betting method + betting amount
+- 1/100
+- 1=100
+- large/100
+- large=100
+- Small/100
+- small=100
+- odds/100
+- odds=100
+- even/100
+- even=100
+- 12/100
+- 23=100
+
+# rule
+
 1 single type:
 Small: The total points are 4-10 (Leopard Banker takes all)
 Big: 11-17 total points (Leopard Banker takes all)
